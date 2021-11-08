@@ -1,0 +1,1 @@
+INSERT INTO orders VALUES (1,"Phone",15000.00,1);

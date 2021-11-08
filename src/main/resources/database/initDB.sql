@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS orders_hr(
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name_order VARCHAR(100) NOT NULL,
+    price DECIMAL NOT NULL,
+    quantity INTEGER NOT NULL
+    );
