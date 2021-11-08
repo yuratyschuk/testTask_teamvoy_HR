@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @Service
 public class OrderImplementation implements OrderService{
-
+    // тут можна зробить private final і потім над класом написать @RequiredArgsConstructor і тоді воно створить конструктор з інжектом всіх private final полів
     @Autowired
     OrderRepo orderRepo;
 
